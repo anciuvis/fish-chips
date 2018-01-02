@@ -135,24 +135,24 @@ h2 {
   font-size: 3.4em;
   color: #1b9ca2;
   font-weight: normal;
-  margin: 5px;
+  margin: 1%;
 }
 
 h3 {
   font-size: 1.8em;
   font-weight: normal;
-  margin: 5px;
+  margin: 1%;
 }
 
 h4 {
   font-size: 1.4em;
   font-weight: normal;
-  margin: 5px;
+  margin: 1%;
 }
 
 h4 i {
   color: #25b3b4;
-  margin: 0px 8px;
+  margin: 0% 2%;
 }
 
 h5 {
@@ -164,7 +164,7 @@ h5 {
 }
 
 h5 i {
-  margin-right: 8px;
+  margin-right: 2%;
 }
 
 aside p {
@@ -181,7 +181,7 @@ aside {
   position: relative;
   float: right;
   left: 25%;
-  margin-top: -60px;
+  margin-top: -25%;
 }
 
 footer {
