@@ -21,15 +21,14 @@ body {
 }
 
 header {
-  margin-top: 100px;
+  margin-top: 4%;
   background-color: #25b3b4;
   border-top: solid 6px #1b9ca2;
   border-bottom: solid 6px #1b9ca2;
 }
 
 nav a {
-  padding: 5px 0px;
-  margin: 0px 10px;
+  margin: 0% 1%;
   display: inline-block;
   text-decoration: none;
   font-size: 1.5em;
@@ -43,13 +42,14 @@ nav ul li {
 
 main {
   min-width: 800px;
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .intro {
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 4%;
 }
 
 .intro p {
@@ -61,10 +61,6 @@ h1 {
   font-weight: normal;
 }
 
-.container {
-
-}
-
 .container::after {
   content: "";
   clear: both;
@@ -73,18 +69,18 @@ h1 {
 
 .img-recipe {
   border: solid 0px;
-  border-radius: 70px;
+  border-radius: 50%;
   float: left;
-  margin: 12px;
-  margin-top: -8px;
+  margin-right: 12px;
+  /*margin-top: -1px;*/
 }
 
 .recipes {
   float: left;
-  width: 69%;
+  width: 68%;
   background-color: #b6dfdd;
-  padding: 2%;
-  margin-right: 1%;
+  padding: 3%;
+  margin-right: 2%;
 }
 
 .recipes p {
@@ -101,11 +97,12 @@ h1 {
   display: inline-block;
   text-decoration: none;
   background-color: #1b9ca2;
-  padding: 10px;
+  padding: 3% 5%;
 }
 
 .button i {
-  color: #ffffff;
+  color: inherit;
+  padding: 5%;
 }
 
 .news {
@@ -124,21 +121,21 @@ h1 {
 
 .crusty {
   float: left;
-  width: 48%;
-  margin: 1%;
+  width: 50%;
+  padding: 1%;
 }
 
 .multifish {
   float: left;
-  width: 48%;
-  margin: 1%;
+  width: 50%;
+  padding: 1%;
 }
 
 h2 {
-  font-size: 3.5em;
-  color: #25b3b4;
+  font-size: 3.4em;
+  color: #1b9ca2;
   font-weight: normal;
-  margin: 5px 10px;
+  margin: 5px;
 }
 
 h3 {
@@ -159,8 +156,15 @@ h4 i {
 }
 
 h5 {
+  color: #b6dfdd;
+  font-size: 1em;
+  font-weight: normal;
   margin: 1%;
-  margin-top: 20px;
+  margin-top: 1%;
+}
+
+h5 i {
+  margin-right: 8px;
 }
 
 aside p {
@@ -176,6 +180,10 @@ aside {
 #vignette {
   position: relative;
   float: right;
-  left: 20%;
-  margin-top: -40px;
+  left: 25%;
+  margin-top: -60px;
+}
+
+footer {
+  margin-top: 1.5%;
 }
