@@ -71,12 +71,20 @@ h1 {
   display: table;
 }
 
+.img-recipe {
+  border: solid 0px;
+  border-radius: 70px;
+  float: left;
+  margin: 12px;
+  margin-top: -8px;
+}
+
 .recipes {
   float: left;
-  width: 68%;
+  width: 69%;
   background-color: #b6dfdd;
+  padding: 2%;
   margin-right: 1%;
-  padding: 10px;
 }
 
 .recipes p {
@@ -105,7 +113,7 @@ h1 {
   width: 30%;
   border: solid 6px #1b9ca2;
   background-color: #25b3b4;
-  margin-left: 1%;
+  padding: 2%;
 }
 
 .recipes::after {
@@ -130,28 +138,44 @@ h2 {
   font-size: 3.5em;
   color: #25b3b4;
   font-weight: normal;
+  margin: 5px 10px;
 }
 
 h3 {
   font-size: 1.8em;
   font-weight: normal;
+  margin: 5px;
 }
 
 h4 {
   font-size: 1.4em;
   font-weight: normal;
+  margin: 5px;
 }
 
+h4 i {
+  color: #25b3b4;
+  margin: 0px 8px;
+}
 
-.img-recipe {
-  border: solid 0px;
-  border-radius: 70px;
-  float: left;
-  margin: 10px;
+h5 {
+  margin: 1%;
+  margin-top: 20px;
+}
+
+aside p {
+  font-size: 0.7em;
+  font-family: sans-serif;
 }
 
 aside {
-  padding: 10px;
   color: #ffffff;
   text-align: left;
+}
+
+#vignette {
+  position: relative;
+  float: right;
+  left: 20%;
+  margin-top: -40px;
 }
